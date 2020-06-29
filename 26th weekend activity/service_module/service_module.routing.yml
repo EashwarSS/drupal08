@@ -1,0 +1,6 @@
+system_module.config:
+  path: '/module/list'
+  defaults: 
+    _controller: '\Drupal\service_module\Controller\SystemModuleController::content' 
+  requirements: 
+    _permission: 'generate Taxmony term form data'
